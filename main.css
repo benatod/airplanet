@@ -1,0 +1,98 @@
+@import url('./css/layout/font.css');
+@import url('./css/layout/normalize.css');
+@import url('./css/layout/base.css');
+
+@import url('./css/blocks/header.css');
+@import url('./css/blocks/sidebar.css');
+@import url('./css/blocks/feeds.css');
+@import url('./css/blocks/cards.css');
+@import url('./css/blocks/contacts.css');
+@import url('./css/blocks/news.css');
+@import url('./css/blocks/team.css');
+@import url('./css/blocks/paginator.css');
+@import url('./css/blocks/footer.css');
+.banner {
+  position: relative;
+  top: 12px;
+  z-index: -5;
+}
+
+.ticket {
+  display: flex;
+  background: #4bb56b;
+  width: 1100px;
+  height: 170px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
+.ticket__container {
+  width: 640px;
+  color: white;
+}
+
+.send-block {
+  width: 702px;
+  height: 432px;
+  margin: 59px auto;
+  background: #f5f5f5;
+  margin-bottom: 42px;
+}
+.send-container {
+    display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin: 40px auto;
+  width: 558px;
+  height: 338px;
+}
+.send-block__title {
+  height: 49px;
+  width: 700px;
+ 
+}
+.input-text {
+width: 270px;
+height: 66px;
+}
+.input-text__name {
+  width: 288px;
+}
+.action-name {
+  height: 16px;
+}
+input.text {
+  width: 270px;
+  height: 41px;
+}
+textarea {
+  width: 558px;
+  height: 82px;
+}
+/*.radio {
+  display: flex;
+}*/
+button {
+  text-align: center;
+  margin-left: 237px;
+  height: 45px;
+  width: 152px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

@@ -1,0 +1,21 @@
+.feeds-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 919px;
+  margin: 20px auto;
+}
+.title-feeds{
+  margin-top: 72px;
+  padding-bottom: 66px;
+}
+.feeds-block {
+  display: flex;
+  margin: 30px auto;
+}
+
+.feeds__text {
+  height: 136px;
+  padding-left: 23px;
+}
+

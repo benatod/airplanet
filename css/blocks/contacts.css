@@ -1,0 +1,65 @@
+.contacts {
+  right: 0px;
+  top: 20px;
+  text-align: right;
+}
+
+.contacts__number {
+  right: 12px;
+}
+
+.contacts__phone {
+  color: #ffffff;
+  font-family: roboto-bold_1;
+  font-size: 21px;
+  text-decoration: none;
+  top: -4px;
+  right: 8px;
+}
+
+.contacts__schedule {
+  font-size: 14px;
+  font-family: roboto-light_1;
+  top: -3px;
+  right: 8px;
+}
+
+.contacts__drop {
+  position: relative;
+  display: none;
+  z-index: 1;
+}
+.contacts__schedule:hover .contacts__drop {
+  display: block;
+}
+.rectangle-round {
+  position: absolute;
+  top: 11px;
+  left: 14px;
+}
+.contacts__list {
+  position: absolute;
+  z-index: 10;
+  list-style: none;
+  font-size: 14px;
+  text-align: left;
+  line-height: 24px;
+  top: 20px;
+  left: -7px;
+  width: 150px;
+} 
+.contacts__name {
+  color: #c1cfe5;
+  text-decoration: underline;
+  font-family: roboto-bold_1;
+}
+
+.contacts__workdays {
+    font-family: roboto-bold_1;
+
+   color: #1c5bc3; 
+}
+
+.contacts__lunch {
+  color: #221f1f;
+}

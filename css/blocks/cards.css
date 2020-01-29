@@ -1,0 +1,68 @@
+.feauteres {
+  width: 900px;
+  height: 514px;
+  }
+  .title-features {
+    margin-top: 18px;
+    padding-bottom: 17px;
+  }
+.cards-block {
+  display: flex;
+text-align: center;
+vertical-align: middle;
+}
+.cards__title {
+  letter-spacing: 2px;
+  margin-left: -28px;
+}
+
+.cards__list {
+  top: 20px;
+  /*line-height: 34px;*/
+  text-align: left;
+}
+
+
+.cards__price {
+  font-family: roboto-light_1;
+  font-size: 30px;
+  top: 18px;
+  
+}
+
+.cards__price-num {
+  font-size: 53.89px;
+}
+ .rectangle {
+   position: relative;
+   z-index: -10;
+   left: -15px;
+   top: -378px;
+ }
+
+.cards {
+   font-family: roboto-light_1;
+  font-size: 18px;
+  width: 207px;
+  padding-top: 20px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  margin: 0 34px;
+}
+
+
+.cards__flower {
+  position: relative;
+  right: 54px;
+  top: -18px;
+}
+.cards__star {
+  position: relative;
+  right: 54px;
+  top: -18px;
+}
+.cards__paint {
+  position: relative;
+  right: 54px;
+  top: -18px;
+}
